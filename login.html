@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="card">
+    <h2>Login</h2>
+
+    <!-- Email Input -->
+    <input type="email" id="loginEmail" placeholder="Enter Email">
+    <small class="error" id="loginEmailError"></small>
+
+    <!-- Password Input -->
+    <input type="password" id="loginPassword" placeholder="Enter Password">
+    <small class="error" id="loginPasswordError"></small>
+
+    <button onclick="validateLogin()">Login</button>
+
+    <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

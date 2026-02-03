@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Signup</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="card">
+    <h2>Sign Up</h2>
+
+    <!-- Name -->
+    <input type="text" id="name" placeholder="Full Name">
+    <small class="error" id="nameError"></small>
+
+    <!-- Email -->
+    <input type="email" id="email" placeholder="Enter Email">
+    <small class="error" id="emailError"></small>
+
+    <!-- Password -->
+    <input type="password" id="password" placeholder="Create Password">
+    <small class="error" id="passwordError"></small>
+
+    <!-- Confirm Password -->
+    <input type="password" id="confirmPassword" placeholder="Confirm Password">
+    <small class="error" id="confirmPasswordError"></small>
+
+    <button onclick="validateSignup()">Sign Up</button>
+
+    <p>Already have an account? <a href="login.html">Login</a></p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
